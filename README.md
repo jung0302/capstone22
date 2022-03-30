@@ -26,6 +26,8 @@
         
         
  (3월 30일)<br>
+ 앱 이름을 Travel Roid로 정함.<br>
+ github에서 협업 프로젝트 시작.<br>
   
         
  
