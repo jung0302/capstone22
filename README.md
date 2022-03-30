@@ -5,8 +5,8 @@
 졸업작품 소개 사이트:URL<br>
 포트폴리오 소개 사이트:URL<p>
 [졸업 작품 소개]
-- 작품명(필수)
-- Android Studio(필수)
+- 작품명
+- Android Studio
 - 작품 소개
 - 작품의 특징
         
