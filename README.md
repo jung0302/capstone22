@@ -26,7 +26,8 @@
  LoginActivity에서 로그인 했을때 <br>
  SecondActivity로 넘어가게 할려고함.<br>
  해시 키를 가져오는 과정에서 문제가 생김.<br>
- Android studio Arctic Fox 버전 이후 gradle allprojects 추가방법을 보고
+ Android studio Arctic Fox 버전 이후 <br>
+ gradle allprojects 추가방법을 보고 <br>
  settings.gradle에 레포지토리를 추가해야 한다는 것을 알게됨.<br>
 
 
