@@ -17,8 +17,15 @@
  
  (4월 10일)<br>
  해시 키 가져오는 것을 성공.<br>
- kakao Developers에 애플리케이션 추가<br>
- 네이티브 앱키 등록<br>
+ kakao Developers에 애플리케이션 추가하고 Android플랫폼 등록에서<br> 
+ 패키지명과 가져온 키해시를등록하고 앱을 등록함.<br>
+ kakao sdk 사용을 위해 GlobalApplication 코틀린 class를 생성해서<br>
+ appKey에 네이비트 앱 키를 작성함.<br>
+ AndroidManifest.xml에 GlobalApplication class가 사용될 수 있도록<br>
+ android:name=".GlobalApplication" 코드를 추가함.<br>
+ 그리고 로그인 창이 되는 액티비티를 추가함.<br>
+ 
+ 
  
  
  (4월 6일)<br>
