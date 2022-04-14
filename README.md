@@ -26,8 +26,9 @@
  위치에 따른 날씨를 알려주기 위해 위치를 알려주는 api추가 시작.<br>
  build.gradle에 구글 플레이 서비스에 제공하는 api추가<br>
  AndroidManifest.xml에 권한 코드를 추가<br>
- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /><br>
- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /><br>
+ <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  
+ <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
  정확한 위치와 대략적인 위치 파악해서 현재위치를 가져올수 있게함.<br>
  
  
