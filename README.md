@@ -18,7 +18,7 @@
  Toast.makeText(this, "토큰 정보 보기 실패", Toast.LENGTH_SHORT).show()<br>
  애뮬레이터에서 첫실행했을 때 토큰 정보 보기 실패 토스트 메시지가 나옴<br>
  토큰값이 없어서(?) 로그인이 되지않고 SecnodActivity로 넘어가지 못함.<br>
-  Toast.makeText(this, "기타 에러", Toast.LENGTH_SHORT).show()<br>
+ Toast.makeText(this, "기타 에러", Toast.LENGTH_SHORT).show()<br>
  callback에서 기타 에러가 발생함. <br>
  로그아웃 버튼과 회원 탈퇴 버튼생성.<br>
  kakao developers에서 로그인 활상화 상태를 ON으로 변경.<br>
@@ -26,9 +26,6 @@
  위치에 따른 날씨를 알려주기 위해 위치를 알려주는 api추가 시작.<br>
  build.gradle에 구글 플레이 서비스에 제공하는 api추가<br>
  AndroidManifest.xml에 권한 코드를 추가<br>
- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-  
- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
  정확한 위치와 대략적인 위치 파악해서 현재위치를 가져올수 있게함.<br>
  
  
