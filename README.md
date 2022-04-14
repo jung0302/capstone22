@@ -8,13 +8,24 @@
 - 작품명:Travel Roid
 - Android Studio
 - 작품 소개:여행을 다닐때 번역을 도와주고 그 위치에 날씨를 알려주는 앱
-- 작품의 특징: 
+- 작품의 특징: 번역기능,위치에 따른 날씨정보 제공
         
  # 개발일지
  
  (4월 13일)<br>
+ 카카오 로그인 버튼 이미지 다운 후 로그인 시도해봄<br>
  카카오 로그인 api를 사용해서 로그인을 할려고 했는데<br>
+ Toast.makeText(this, "토큰 정보 보기 실패", Toast.LENGTH_SHORT).show()<br>
+ 애뮬레이터에서 첫실행했을 때 토큰 정보 보기 실패 토스트 메시지가 나옴<br>
  토큰값이 없어서(?) 로그인이 되지않고 SecnodActivity로 넘어가지 못함.<br>
+  Toast.makeText(this, "기타 에러", Toast.LENGTH_SHORT).show()<br>
+ callback에서 기타 에러가 발생함. <br>
+ 로그아웃 버튼과 회원 탈퇴 버튼생성<br>
+ kakao developers에서 로그인 활상화 상태를 ON으로 변경<br>
+ 
+ 
+ 
+ 
  
  
  (4월 10일)<br>
