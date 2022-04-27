@@ -28,7 +28,8 @@ mFusedLocationProviderClient!!.requestLocationUpdates(mLocationRequest, mLocatio
                 it
             )
         }<br>
- 로 코드를 변경하면서 문제가 해결됨.
+ 로 코드를 변경하면서 문제가 해결됨.<br>
+ 
  
  
  
