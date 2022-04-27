@@ -29,6 +29,10 @@ mFusedLocationProviderClient!!.requestLocationUpdates(mLocationRequest, mLocatio
             )
         }<br>
  로 코드를 변경하면서 문제가 해결됨.<br>
+ override fun onRequestPermissionsResult에서  문제가 생김<br>
+ Overriding method should call 'super.onRequestPermissionsResult'라는 오류메시지가 발생함.<br>
+ super.onRequestPermissionsResult를 추가해서 문제 해결.<br>
+ 
  
  
  
