@@ -19,6 +19,7 @@
  action android:name="android.intent.category.BROWSABLE" <br>
  태그에서 action 부분을 category로 변경해서 kakao로그인 화면이 넘어가지 않는 문제를 해결함.<br>
  카카오 로그인을 한 후 일단 닉네임 정보만 받아옴.<br>
+ LoginActivity구현을 완료한 후 다시 LocationActivity를 코딩하기 시작함<br>
  지정한 루퍼 스레드에서 콜백으로 위치 업데이트를 하는 코드에서 문제가 발생함.<br>
 mFusedLocationProviderClient!!.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper())<br>
  에서 Looper.myLooper에 빨간줄이 생기면서
