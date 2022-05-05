@@ -13,6 +13,9 @@
  # 개발일지
  
  
+ (5월 4일)<br>
+ 
+ 
  (4월 27일)<br>
  저번에 카카오로그인이 넘어가지않는 문제를 메니페스트 파일에서 <br>
  action android:name="android.intent.category.DEFAULT" <br>
