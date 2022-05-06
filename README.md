@@ -12,9 +12,9 @@
         
  # 개발일지
  
- 
+ <PRE>
  (5월 4일)<br>
- <PRE>실시간 위치정보를 알려주는 것보다 위치를 알고 싶을때 아는 것이 좋다고 판단하여 코드를 변경함.<br>
+ 실시간 위치정보를 알려주는 것보다 위치를 알고 싶을때 아는 것이 좋다고 판단하여 코드를 변경함.<br>
  fun onLocationChanged(location: Location) {<br>
         mLastLocation = location
         val address = geocoder.getFromLocation(mLastLocation.latitude,mLastLocation.longitude,1)
@@ -22,8 +22,10 @@
         text2.text = "경도 : " + mLastLocation.longitude // 갱신 된 경도
         text3.text = "주소 : " + address.get(0).countryName+address.get(0).adminArea
     }<br>
- 위도,경도를 얻어오는 것은 성공했는데 애뮬레이터에서는 위치가 고정되고 주소는 잘나옴.<br>
- 스마트폰으로 개발자모드를 켜서 실행하면 실시간 위치는 잘 나오지만 주소가 나오지않음.<br>
+ 위도,경도를 얻어오는 것은 성공했는데 애뮬레이터에서는 위치가 고정되고 주소는 잘나옴.
+ 스마트폰으로 개발자모드를 켜서 실행하면 실시간 위치는 잘 나오지만 주소가 나오지않음.
+  
+  
  
  (4월 27일)<br>
  저번에 카카오로그인이 넘어가지않는 문제를 메니페스트 파일에서 <br>
