@@ -2,7 +2,7 @@
 
 팀명:스테로이드<br>
 이름:김승정(팀원:App)<br>
-졸업작품 소개 사이트:URL<br>
+졸업작품 소개 사이트:https://msy4808.github.io/capstonePage/<br>
 포트폴리오 소개 사이트:URL<p>
  # [졸업 작품 소개]
 - 작품명:Travel Roid
