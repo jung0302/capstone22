@@ -14,12 +14,12 @@
  
  <PRE>
  (5월 11일)
-  val address = geocoder.getFromLocation(mLastLocation.latitude,mLastLocation.longitude,1)
-  코드에서 문제점을 발견함. getFromLocation에서 두번째 들어가는 maxResults값을 1로 지정해서 문자열이 1크기를
-  넘지 못하여 앱이 강제종료되는 문제가 있었음. 잘못된 코드를 
-  val address = geocoder.getFromLocation(mLastLocation.latitude,mLastLocation.longitude,10)
-  로 변경해서 위도,경도에 따른 위치를 알아오는데 성공함.
-  address.get(0).countryName+address.get(0).adminArea를 통해서 국가와 도시에 이름을 출력함.
+  val address = geocoder.getFromLocation(mLastLocation.latitude,mLastLocation.longitude,1)<br>
+  코드에서 문제점을 발견함. getFromLocation에서 두번째 들어가는 maxResults값을 1로 지정해서 문자열이 1크기를<br>
+  넘지 못하여 앱이 강제종료되는 문제가 있었음. 잘못된 코드를 <br>
+  val address = geocoder.getFromLocation(mLastLocation.latitude,mLastLocation.longitude,10)<br>
+  로 변경해서 위도,경도에 따른 위치를 알아오는데 성공함.<br>
+  address.get(0).countryName+address.get(0).adminArea를 통해서 국가와 도시에 이름을 출력함.<br>
   
   
   
@@ -32,10 +32,10 @@
         text2.text = "경도 : " + mLastLocation.longitude // 갱신 된 경도
         text3.text = "주소 : " + address.get(0).countryName+address.get(0).adminArea
     }<br>
- 위도,경도를 얻어오는 것은 성공했는데 애뮬레이터에서는 위치가 고정되고 주소는 잘나옴.
- 스마트폰으로 개발자모드를 켜서 실행하면 실시간 위치는 잘 나오지만 주소가 나오지않음.
- address.get(0).countryName+address.get(0).adminArea 코드에 문법적인 문제가 있는것같음.
- geocoder를 이용한 주소를 얻어오는 코드를 조금 더 찾아볼 필요가 있음.
+ 위도,경도를 얻어오는 것은 성공했는데 애뮬레이터에서는 위치가 고정되고 주소는 잘나옴.<br>
+ 스마트폰으로 개발자모드를 켜서 실행하면 실시간 위치는 잘 나오지만 주소가 나오지않음.<br>
+ address.get(0).countryName+address.get(0).adminArea 코드에 문법적인 문제가 있는것같음.<br>
+ geocoder를 이용한 주소를 얻어오는 코드를 조금 더 찾아볼 필요가 있음.<br>
   
   
  
