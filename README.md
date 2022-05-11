@@ -22,6 +22,7 @@
   address.get(0).countryName+address.get(0).adminArea를 통해서 국가와 도시에 이름을 출력함.
   
   
+  
  (5월 4일)<br>
  실시간 위치정보를 계속변경하는것 보다는 위치를 알고 싶을때 아는 것이 좋다고 판단하여 코드를 변경함.<br>
  fun onLocationChanged(location: Location) {<br>
