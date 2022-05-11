@@ -16,8 +16,7 @@
  (5월 11일)
   val address = geocoder.getFromLocation(mLastLocation.latitude,mLastLocation.longitude,1)
   코드에서 문제점을 발견함. getFromLocation에서 두번째 들어가는 maxResults값을 1로 지정해서 문자열이 1크기를
-  넘지 못하여 앱이 강제종료되는 문제가 있었음.
-  잘못된 코드를 
+  넘지 못하여 앱이 강제종료되는 문제가 있었음. 잘못된 코드를 
   val address = geocoder.getFromLocation(mLastLocation.latitude,mLastLocation.longitude,10)
   로 변경해서 위도,경도에 따른 위치를 알아오는데 성공함.
   address.get(0).countryName+address.get(0).adminArea를 통해서 국가와 도시에 이름을 출력함.
