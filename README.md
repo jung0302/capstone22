@@ -24,7 +24,8 @@
     }<br>
  위도,경도를 얻어오는 것은 성공했는데 애뮬레이터에서는 위치가 고정되고 주소는 잘나옴.
  스마트폰으로 개발자모드를 켜서 실행하면 실시간 위치는 잘 나오지만 주소가 나오지않음.
- address.get(0).countryName+address.get(0).adminArea 코드에 문법적인 문제가 있는것같음
+ address.get(0).countryName+address.get(0).adminArea 코드에 문법적인 문제가 있는것같음.
+ geocoder를 이용한 주소를 얻어오는 코드를 조금 더 찾아볼 필요가 있음.
   
   
  
