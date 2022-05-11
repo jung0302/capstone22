@@ -25,7 +25,7 @@
   
  (5월 4일)<br>
  실시간 위치정보를 계속변경하는것 보다는 위치를 알고 싶을때 아는 것이 좋다고 판단하여 코드를 변경함.<br>
- fun onLocationChanged(location: Location) {<br>
+ fun onLocationChanged(location: Location) {
         mLastLocation = location
         val address = geocoder.getFromLocation(mLastLocation.latitude,mLastLocation.longitude,1)
         text1.text = "위도 : " + mLastLocation.latitude // 갱신 된 위도
