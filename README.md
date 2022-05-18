@@ -13,6 +13,19 @@
  # 개발일지
  
  <PRE>
+  
+ (5월 18일)
+  MainActivity에서 세개의 프래그먼트를 이용하여 화면을 전환해 주는 것으로 코드를 바꿈.
+  var weatherview = inflater.inflate(R.layout.fragment_weather, container, false)
+  WeatherFragment에 fragment_weather가 나올 수 있게 변수선언을 해줌.
+  LocationActivity에 있는 코드를 WeatherFragment로 옮겨적음.
+  Activity에 있는 코드를 Fragment에 옮기는 과정에서 디버깅이 발생함.
+  Type mismatch: inferred type is WeatherFragment but Context was expected
+  Activity에서는 this를 통해 context를 바로 가져왔는데 Fragment에서는 바로 가져오지못하는 문제가 발생.
+  
+  
+  
+  
  (5월 11일)
   val address = geocoder.getFromLocation(mLastLocation.latitude,mLastLocation.longitude,1)<br>
   코드에서 문제점을 발견함. getFromLocation에서 두번째 들어가는 maxResults값을 1로 지정해서 문자열이 1크기를<br>
