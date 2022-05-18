@@ -15,14 +15,16 @@
  <PRE>
   
  (5월 18일)
-  MainActivity에서 세개의 프래그먼트를 이용하여 화면을 전환해 주는 것으로 코드를 바꿈.
-  var weatherview = inflater.inflate(R.layout.fragment_weather, container, false)
-  WeatherFragment에 fragment_weather가 나올 수 있게 변수선언을 해줌.
-  LocationActivity에 있는 코드를 WeatherFragment로 옮겨적음.
-  Activity에 있는 코드를 Fragment에 옮기는 과정에서 디버깅이 발생함.
-  Type mismatch: inferred type is WeatherFragment but Context was expected
-  Activity에서는 this를 통해 context를 바로 가져왔는데 Fragment에서는 바로 가져오지못하는 문제가 발생.
-  
+  MainActivity에서 세개의 프래그먼트를 이용하여 화면을 전환해 주는 것으로 코드를 바꿈.<br>
+  var weatherview = inflater.inflate(R.layout.fragment_weather, container, false)<br>
+  WeatherFragment에 fragment_weather가 나올 수 있게 변수선언을 해줌.<br>
+  LocationActivity에 있는 코드를 WeatherFragment로 옮겨적음.<br>
+  Activity에 있는 코드를 Fragment에 옮기는 과정에서 디버깅이 발생함.<br>
+  error - Type mismatch: inferred type is WeatherFragment but Context was expected<br>
+  Activity에서는 this를 통해 context를 바로 가져왔는데 Fragment에서는 바로 가져오지못하는 문제가 발생.<br>
+  requireContext()메소드를 사용해서 문제를 해결함.<br>
+  address.get(0).locality+" "+address.get(0).subLocality+" "+address.get(0).thoroughfare<br>
+  코드를 추가해서 더 자세한 주소가 나오게 코딩함.<br>
   
   
   
@@ -32,7 +34,7 @@
   넘지 못하여 앱이 강제종료되는 문제가 있었음. 잘못된 코드를 <br>
   val address = geocoder.getFromLocation(mLastLocation.latitude,mLastLocation.longitude,10)<br>
   로 변경해서 위도,경도에 따른 위치를 알아오는데 성공함.<br>
-  address.get(0).countryName+address.get(0).adminArea를 통해서 국가와 도시에 이름을 출력함.<br>
+  address.get(0).countryName+address.get(0).adminArea를 통해서 국가와 도시의 이름을 출력함.<br>
   
   
   
