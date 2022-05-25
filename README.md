@@ -14,6 +14,8 @@
  
  <PRE>
   
+ (5월 25일)
+  
  (5월 18일)
   MainActivity에서 세개의 프래그먼트를 이용하여 화면을 전환해 주는 것으로 코드를 바꿈.<br>
   var weatherview = inflater.inflate(R.layout.fragment_weather, container, false)<br>
