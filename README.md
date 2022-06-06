@@ -5,7 +5,7 @@
 졸업작품 소개 사이트:https://msy4808.github.io/capstonePage/<br>
 포트폴리오 소개 사이트:URL<p>
  # [졸업 작품 소개]
-- 작품명:Travel Roid
+- 작품명:Smartrip
 - Android Studio
 - 작품 소개:여행을 다닐때 번역을 도와주고 그 위치에 날씨를 알려주는 앱
 - 작품의 특징: 번역기능,위치에 따른 날씨정보 제공
